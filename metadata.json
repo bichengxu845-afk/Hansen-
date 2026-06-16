@@ -1,0 +1,6 @@
+{
+  "name": "New York Knicks Iron and Blood Legend",
+  "description": "Interactive visual dashboard presenting defensive metrics, playoff results, player strengths, and scouting files of the 1990s New York Knicks Grit Era.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
