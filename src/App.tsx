@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { players, regularSeasonPointsTrend } from "./data";
 import RadarChart from "./components/RadarChart";
-const retroPoster = "/src/assets/images/ewing_clean_photo_1781597088652.jpg";
+import retroPoster from "./assets/images/ewing_clean_photo_1781597088652.jpg";
 import RotationUnitGrid from "./components/RotationUnitGrid";
 import SprewellDial from "./components/SprewellDial";
 import PlayoffMiracleSeries from "./components/PlayoffMiracleSeries";

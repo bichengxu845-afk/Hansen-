@@ -1,12 +1,24 @@
 import { Player, OpponentTeam, PlayoffRound, DefensiveMetric } from "./types";
 
+import ewingPortrait from "./assets/images/ewing_portrait_1781596036400.jpg";
+import oakleyPortrait from "./assets/images/oakley_portrait_1781596057572.jpg";
+import masonPortrait from "./assets/images/mason_portrait_1781596139192.jpg";
+import starksPortrait from "./assets/images/starks_portrait_1781596074545.jpg";
+import harperPortrait from "./assets/images/harper_portrait_1781596122522.jpg";
+import houstonPortrait from "./assets/images/houston_portrait_1781596104683.jpg";
+import sprewellPortrait from "./assets/images/sprewell_portrait_1781596088194.jpg";
+
+import heatPoster from "./assets/images/heat_rival_poster_1781596158163.jpg";
+import bullsPoster from "./assets/images/bulls_rival_poster_1781596173571.jpg";
+import rocketsPoster from "./assets/images/rockets_rival_poster_1781596189460.jpg";
+
 export const players: Player[] = [
   {
     id: "ewing",
     name: "Patrick Ewing",
     chineseName: "帕特里克·尤因",
     number: "33",
-    portrait: "/src/assets/images/ewing_portrait_1781596036400.jpg",
+    portrait: ewingPortrait,
     role: "Paint Anchor / Core",
     roleDescription: "33号禁区核心。尤因33号镇守禁区，奥克利、梅森、斯塔克斯组成铁血班底，重构90年代纽约尼克斯的硬汉篮球档案。",
     quote: "我基本不只是为了得分而战，我为捍卫禁区而生。我热爱防守，热爱把对方帽翻！",
@@ -32,7 +44,7 @@ export const players: Player[] = [
     name: "Charles Oakley",
     chineseName: "查尔斯·奥克利",
     number: "34",
-    portrait: "/src/assets/images/oakley_portrait_1781596057572.jpg",
+    portrait: oakleyPortrait,
     role: "The Enforcer",
     roleDescription: "大前锋 PF。纽约著名的保镖。负责干脏活累活，扫货地板球，绝不让任何对手在尼克斯禁区内散步，是不折不扣的硬骨头。",
     quote: "如果你没准备好和我们打拳击，就离底线远一点。",
@@ -57,7 +69,7 @@ export const players: Player[] = [
     name: "Anthony Mason",
     chineseName: "安东尼·梅森",
     number: "14",
-    portrait: "/src/assets/images/mason_portrait_1781596139192.jpg",
+    portrait: masonPortrait,
     role: "Two-Way Wing",
     roleDescription: "前锋 SF/PF。身体极其壮硕。既拥有像卡车一样的对抗身躯，又具备控球前锋的神奇传导能耐，外线贴身撕咬能力极强。",
     quote: "你可以在我身上得分，但代价是接下来一星期都需要冰敷。",
@@ -82,7 +94,7 @@ export const players: Player[] = [
     name: "John Starks",
     chineseName: "约翰·斯塔克斯",
     number: "3",
-    portrait: "/src/assets/images/starks_portrait_1781596074545.jpg",
+    portrait: starksPortrait,
     role: "Scoring Guard / Firebrand",
     roleDescription: "得分后卫 SG。从超市理货员打到全明星的硬地平民英雄。拥有极强的情感爆发力，其绝命隔扣乔丹被称为麦迪逊永远的经典。",
     quote: "我只要上场就是倾其所有。如果乔丹要过我，他必须踩着我倒下的身体。",
@@ -107,7 +119,7 @@ export const players: Player[] = [
     name: "Derek Harper",
     chineseName: "德里克·哈珀",
     number: "11",
-    portrait: "/src/assets/images/harper_portrait_1781596122522.jpg",
+    portrait: harperPortrait,
     role: "Lockdown PG",
     roleDescription: "控球后卫 PG。冷酷智慧，老辣坚毅的更衣室指挥官。以极高强度的前场疯狂领防著称，是尼克斯全场窒息大锁的引擎所在。",
     quote: "防守不要指望靠单干，我们要构建的是五个人咬在一起的嗜血锁链。",
@@ -132,7 +144,7 @@ export const players: Player[] = [
     name: "Allan Houston",
     chineseName: "阿兰·休斯顿",
     number: "20",
-    portrait: "/src/assets/images/houston_portrait_1781596104683.jpg",
+    portrait: houstonPortrait,
     role: "The Pure Shooter",
     roleDescription: "得分后卫 SG。中投王，中投教科书。1998-99赛季黑八征程中射落无数冷冷绝杀，用精准优雅的致命弹道打破肌肉泥潭。",
     quote: "即使在最粘稠窒息的防守网下，我的出手机构仍然是绝对完美的15度斜划。",
@@ -157,7 +169,7 @@ export const players: Player[] = [
     name: "LaTrell Sprewell",
     chineseName: "拉崔尔·斯普雷维尔",
     number: "8",
-    portrait: "/src/assets/images/sprewell_portrait_1781596088194.jpg",
+    portrait: sprewellPortrait,
     role: "The Slasher / Dynamo",
     roleDescription: "得分后卫/小前锋。狂人。1998-99黑八奇迹的主力狂飚发动机。打法泼辣狠毒，切入速度宛如雷霆万钧劈砍内线，意志极其不驯。",
     quote: "我可不是来做配角的。当所有人精疲力竭、泥潭厮杀时，我会用100码的时速把篮筐扯成粉碎！",
@@ -184,7 +196,7 @@ export const opponentTeams: OpponentTeam[] = [
     id: "heat",
     name: "Miami Heat",
     chineseName: "迈阿密热火",
-    poster: "/src/assets/images/heat_rival_poster_1781596158163.jpg",
+    poster: heatPoster,
     type: "rival",
     wantedLevel: "宿敌特供-高危特辑",
     scoutNotes: [
@@ -220,7 +232,7 @@ export const opponentTeams: OpponentTeam[] = [
     id: "bulls",
     name: "Chicago Bulls",
     chineseName: "芝加哥公牛",
-    poster: "/src/assets/images/bulls_rival_poster_1781596173571.jpg",
+    poster: bullsPoster,
     type: "mortal",
     wantedLevel: "特等通缉-超级恶龙",
     scoutNotes: [
@@ -262,7 +274,7 @@ export const opponentTeams: OpponentTeam[] = [
     id: "rockets",
     name: "Houston Rockets",
     chineseName: "休斯敦火箭",
-    poster: "/src/assets/images/rockets_rival_poster_1781596189460.jpg",
+    poster: rocketsPoster,
     type: "finals",
     wantedLevel: "终级悬赏-血泪决战",
     scoutNotes: [
